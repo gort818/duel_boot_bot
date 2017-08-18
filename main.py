@@ -11,7 +11,7 @@ reddit=praw.Reddit(client_id=' ',
         username=' ',
         password=' ')
 
-print(reddit.read_only)
+print(reddit.read_only) # if false you have write access if true you have only read access
 
 # Have we run this code before? If not, create an empty list
 if not os.path.isfile("posts_replied_to.txt"):

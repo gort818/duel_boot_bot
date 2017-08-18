@@ -38,7 +38,7 @@ for submission in subreddit.new():
         duel = re.search("duel", submission.title, re.IGNORECASE)
         if duel:
             # Reply to the post
-            bot_reply=("""What I think you mean is Dual boot. \n\nDual Booting is the act of installing multiple operating systems on a computer, and being able to choose which one to boot. Duel boot is a boot(shoewear) used in dueling(arranged combat).""")
+            bot_reply=("""What I think you mean is Dual boot. \n\nDual Booting is the act of installing multiple operating systems on a computer, and being able to choose which one to boot. Duel boot is a boot(shoewear) used in dueling(arranged combat).\n\n ***\n ^[ ^Just ^another ^bot. [^Source](https://github.com/gort818/duel_boot_bot) ^]""")
 
 
             submission.reply(bot_reply)
